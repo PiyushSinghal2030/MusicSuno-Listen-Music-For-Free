@@ -1,0 +1,400 @@
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .line1 img{
+    height: 130px;
+    width: 130px;
+  }
+  .line1{
+    flex-wrap: wrap;
+  }
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card7{
+    margin-right: 0.8vw;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1310px) {
+  .line1 {
+    display: block;
+    height: 63vh;
+    flex-wrap: wrap;
+  }
+  .line1-flex1 {
+    width: 100%;
+    overflow: hidden;
+  }
+  .line1-flex2 {
+    width: 28vw;
+  }
+  .card6 {
+    display: block;
+  }
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card7 {
+    margin-right: 1vw;
+  }
+}
+
+@media only screen and (max-width:1180px) and (min-width:1024px) {
+  .card7{
+    display: none;
+  }
+  .card5{
+    margin-right: 4.5vw;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1210px) {
+  .line2-card6 {
+    display: none;
+  }
+  .line2 {
+    /* width: 60%; */
+    overflow-wrap: normal;
+  }
+  .sign-up-free-pop-up {
+    margin-left: 0.75vw;
+  }
+  html {
+    font-size: 12px;
+  }
+}
+
+
+@media only screen and (min-width:320px) and (max-width:1024px) {
+  .right-chamber-upper .arrows-icon {
+    margin-left: 5vw;
+  }
+  .card6,.card7{
+    display: none;
+  }
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6{
+    margin-right: 0;
+  }
+  .artist{
+    margin-top: 5vh;
+  }
+  .line2-card6 {
+    display: none;
+  }
+  .line1 img{
+    height: 130px;
+    width: 130px;
+  }
+  .line1{
+    overflow: scroll;
+    height: 30vh;
+  }
+  .line2{
+    height: 30vh;
+    overflow: scroll;
+  }
+  .line2 img{
+    height: 120px;
+    width: 120px;
+  }
+  html{
+    font-size: 12px;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .right-footer-policies{
+    font-size: 0.8rem;
+  }
+ .card5{
+  display: none;
+ }
+  .card1,
+  .card2,
+  .card3,
+  .card4{
+    margin-right: 2.5vw;
+  }
+}
+@media only screen and (min-width:320px) and (max-width:910px){
+ .line2-card5{
+  display: none;
+ }
+}
+@media only screen and (min-width:320px) and (max-width:984px){
+  .line1{
+    justify-content: space-between;
+  }
+  .left-chamber-lower{
+  padding: 20px;
+ }
+}
+@media only screen and (min-width:320px) and (max-width:872px) {
+ .card1,
+ .card2,
+ .card3,
+ .card4{
+  margin-right: 0;
+ }
+ .card5,
+ .card6,
+ .card7{
+  display: block;
+ }
+ .line2-card5,
+ .line2-card6{
+  display: block;
+ }
+ .left-chamber{
+  display: none;
+ }
+ .right-chamber{
+  width: 100vw;
+ }
+ .right-chamber-lower{
+  width: 100vw;
+ }
+ .ham-menu i {
+  display: block;
+  font-size: 30px;
+  margin-left: 3vw;
+ }
+ .right-chamber-upper .arrows-icon i {
+  display: none;
+ }
+ .line1 img{
+  height: 127px;
+  width: 127px;
+ }
+ .card6{
+  display: none;
+ }
+}
+
+@media only screen and (min-width:320px) and (max-width:810px) {
+ .card5,
+ .card6{
+  display: none;
+ }
+ .card1,
+ .card2,
+ .card3,
+ .card4,
+ .card7{
+  margin-right: 1.2vw;
+ }
+ .line2-card6{
+  display: none;
+ }
+}
+
+
+@media only screen and (max-width:650px) and (min-width:540px) {
+  .right-footer-policies{
+    height: 40vh;
+    flex-wrap: wrap;
+  }
+  .right-footer-policies ul{
+    margin: 10px;
+  }
+  .icon-list i{
+    position: relative; 
+    top: -10vh;
+    left: 30vw;
+  }
+}
+@media only screen and (max-width:540px) and (min-width:425px) {
+  .right-footer-policies{
+    height: 70vh;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .right-footer-policies ul{
+    margin-right: 15vw;
+    font-size: 1.2rem;
+  }
+    .icon-list i{
+    position: relative; 
+    top: -8vh;
+  }
+  .sign-up-free-pop-up{
+    font-size: 0.8rem;
+  }
+  .sign-up-free-pop-up button{
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width:490px) and (min-width:425px) {
+   .footer-list2-mless{
+    margin-top: -20px;
+   }
+
+}
+
+@media only screen and (min-width:320px) and (max-width:425px) {
+  .right-chamber-upper .arrows-icon {
+    margin-left: 5vw;
+  }
+  .card6,.card7{
+    display: none;
+  }
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6{
+    margin-right: 0;
+  }
+  .artist{
+    margin-top: 5vh;
+  }
+  .line2-card6 {
+    display: none;
+  }
+  .line1 img{
+    height: 130px;
+    width: 130px;
+  }
+  .line1{
+    overflow: scroll;
+    height: 30vh;
+  }
+  .line2{
+    height: 30vh;
+    overflow: scroll;
+  }
+  .line2 img{
+    height: 120px;
+    width: 120px;
+  }
+  html{
+    font-size: 12px;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .right-footer-policies{
+    font-size: 0.8rem;
+  }
+ .card5{
+  display: none;
+ }
+  .card1,
+  .card2,
+  .card3,
+  .card4{
+    margin-right: 2.5vw;
+  }
+  .line2-card5{
+  display: none;
+ }
+
+.line1{
+    justify-content: space-between;
+  }
+  .left-chamber-lower{
+  padding: 20px;
+ }
+ .card1,
+ .card2,
+ .card3,
+ .card4{
+  margin-right: 0;
+ }
+ .card5,
+ .card6,
+ .card7{
+  display: block;
+ }
+ .line2-card5,
+ .line2-card6{
+  display: block;
+ }
+ .left-chamber{
+  display: none;
+ }
+ .right-chamber{
+  width: 100vw;
+ }
+ .right-chamber-lower{
+  width: 100vw;
+ }
+ .ham-menu i {
+  display: block;
+  font-size: 30px;
+  margin-left: 3vw;
+ }
+ .right-chamber-upper .arrows-icon i {
+  display: none;
+ }
+ .line1 img{
+  height: 127px;
+  width: 127px;
+ }
+ .card6{
+  display: none;
+ }
+ .card5,
+ .card6{
+  display: none;
+ }
+ .card1,
+ .card2,
+ .card3,
+ .card4,
+ .card7{
+  margin-right: 1.2vw;
+ }
+ .line2-card6{
+  display: none;
+ }
+  .right-footer-policies{
+    height: 130vh;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .right-footer-policies ul{
+    font-size: 1.2rem;
+    height: 120px;
+  }
+  .footer-list2-mless{
+    margin-top: -20px;
+  }
+  .right-footer-policies div{
+    display: block;
+  }
+  .icon-list div{
+    display: flex;
+  }
+    .icon-list i{
+    position: relative; 
+    top: -8vh;
+  }
+  .sign-up-free-pop-up{
+    font-size: 0.8rem;
+  }
+  .sign-up-free-pop-up button{
+    font-size: 1rem;
+  }
+    .signup-popup-txt{
+      width: 60vw;
+    }
+    .right-chamber-upper button{
+      font-size: 0.8rem;
+    }
+    .login{
+      width: 70px;
+    }
+
+}
