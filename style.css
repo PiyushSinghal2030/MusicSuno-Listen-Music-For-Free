@@ -377,6 +377,16 @@ body {
   border-radius: 50%;
 }
 
+.card1:hover .line-txt1,
+.card2:hover .line-txt1,
+.card3:hover .line-txt1,
+.card4:hover .line-txt1,
+.card5:hover .line-txt1,
+.card6:hover .line-txt1,
+.card7:hover  .line-txt1{
+  margin-top: -30px;
+}
+
 .line-txt1 {
   color: #fff;
   font-weight: 600;
@@ -390,7 +400,7 @@ body {
   margin: 5px 10px;
 }
 
-.play-btn-oncard1 {
+.play-btn-oncard5 {
   display: none;
   position: relative;
   height: 40px;
@@ -398,101 +408,40 @@ body {
   font-size: 1.3rem;
   background-color: rgb(15, 131, 15);
   border-radius: 50%;
-  top: 290px;
-  left: 470px;
+  top: -12px;
+  left: 88px;
   transition: all 0.5s;
 }
 
-.play-btn-oncard2 {
-  display: none;
-  position: absolute;
-  height: 40px;
-  width: 40px;
-  font-size: 1.3rem;
-  background-color: rgb(15, 131, 15);
-  border-radius: 50%;
-  top: 290px;
-  left: 630px;
-  transition: all 0.5s;
-}
-.play-btn-oncard3 {
-  display: none;
-  position: absolute;
-  height: 40px;
-  width: 40px;
-  font-size: 1.3rem;
-  background-color: rgb(15, 131, 15);
-  border-radius: 50%;
-  top: 290px;
-  left: 800px;
-  transition: all 0.5s;
-}
-.play-btn-oncard4 {
-  display: none;
-  position: absolute;
-  height: 40px;
-  width: 40px;
-  font-size: 1.3rem;
-  background-color: rgb(15, 131, 15);
-  border-radius: 50%;
-  top: 290px;
-  left: 970px;
-  transition: all 0.5s;
-}
-.play-btn-oncard5 {
-  display: none;
-  position: absolute;
-  height: 40px;
-  width: 40px;
-  font-size: 1.3rem;
-  background-color: rgb(15, 131, 15);
-  border-radius: 50%;
-  top: 290px;
-  left: 1120px;
-  transition: all 0.5s;
-}
-.play-btn-oncard6 {
-  display: none;
-  position: absolute;
-  height: 40px;
-  width: 40px;
-  font-size: 1.3rem;
-  background-color: rgb(15, 131, 15);
-  border-radius: 50%;
-  top: 290px;
-  left: 1280px;
-  transition: all 0.5s;
-}
-
-.card1:hover .play-btn-oncard1 {
+.card1:hover .play-btn-oncard5 {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: relative;
   transform: translateY(-50px);
 }
 
-.card2:hover .play-btn-oncard2 {
+.card2:hover .play-btn-oncard5 {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: relative;
   transform: translateY(-50px);
 }
 
-.card3:hover .play-btn-oncard3 {
+.card3:hover .play-btn-oncard5 {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: relative;
   transform: translateY(-50px);
 }
 
-.card4:hover .play-btn-oncard4 {
+.card4:hover .play-btn-oncard5 {
  display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: relative;
   transform: translateY(-50px);
 }
 
@@ -500,15 +449,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: relative;
   transform: translateY(-50px);
 }
 
-.card6:hover .play-btn-oncard6 {
+.card6:hover .play-btn-oncard5 {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: relative;
+  transform: translateY(-50px);
+}
+.card7:hover .play-btn-oncard5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
   transform: translateY(-50px);
 }
 
