@@ -7,10 +7,11 @@
             crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="mediaqueries.css">
-        <link rel="stylesheet" href="script.js">
+        <script src="script.js"></script>
         <title>Document</title>
     </head>
     <body>
+        <audio src="groovy-ambient-funk-201745.mp3" id="audio-play"></audio>
         <div class="left-chamber">
             <div class="left-chamber-upper">
                 <div class="logo"><img src="images/logo.PNG"
@@ -87,10 +88,10 @@
                 <div class="line1">
                     <div class="line1-flex1">
                         <div class="card1">
-                            <div class="line-img"><a href="index2.html"><img
+                            <div class="line-img"><img
                                     src="images/popular artists/image1.PNG"
-                                    alt></a></div>
-                            <div class="play-btn-oncard5">►</div>
+                                    alt></div>
+                            <div class="play-btn-oncard5" id="music-play1" >►</div>
                             <div class="line-txt1">Pritam</div>
                             <div class="line-txt2">Artist</div>
                         </div>
@@ -98,7 +99,7 @@
                             <div class="line-img"><img
                                     src="images/popular artists/image2.PNG"
                                     alt></div>
-                            <div class="play-btn-oncard5">►</div>
+                            <div class="play-btn-oncard5 music-play" id="music-play2">►</div>
                             <div class="line-txt1">Arijit Singh</div>
                             <div class="line-txt2">Artist</div>
                         </div>
@@ -106,7 +107,7 @@
                             <div class="line-img"><img
                                     src="images/popular artists/image3.PNG"
                                     alt></div>
-                            <div class="play-btn-oncard5">►</div>
+                            <div class="play-btn-oncard5 music-play" id="music-play3">►</div>
                             <div class="line-txt1">A.R. Rahman</div>
                             <div class="line-txt2">Artist</div>
                         </div>
@@ -114,7 +115,7 @@
                             <div class="line-img"><img
                                     src="images/popular artists/image4.PNG"
                                     alt></div>
-                            <div class="play-btn-oncard5">►</div>
+                            <div class="play-btn-oncard5 music-play" id="music-play4">►</div>
                             <div class="line-txt1">Anirudh...</div>
                             <div class="line-txt2">Artist</div>
                         </div>
@@ -123,7 +124,7 @@
                             <div class="line-img"><img
                                     src="images/popular artists/image4.PNG"
                                     alt></div>
-                            <div class="play-btn-oncard5">►</div>
+                            <div class="play-btn-oncard5 music-play" id="music-play5">►</div>
                             <div class="line-txt1">Anirudh...</div>
                             <div class="line-txt2">Artist</div>
                         </div>
@@ -133,7 +134,7 @@
                             <div class="line-img"><img
                                     src="images/popular artists/image5.PNG"
                                     alt></div>
-                            <div class="play-btn-oncard5">►</div>
+                            <div class="play-btn-oncard5 music-play" id="music-play6">►</div>
                             <div class="line-txt1">Vishal Mishra</div>
                             <div class="line-txt2">Artist</div>
                         </div>
@@ -141,7 +142,7 @@
                             <div class="line-img"><img
                                     src="images/popular artists/image6.PNG"
                                     alt></div>
-                            <div class="play-btn-oncard5">►</div>
+                            <div class="play-btn-oncard5 music-play" id="music-play7">►</div>
                             <div class="line-txt1">Sachin-Jigar</div>
                             <div class="line-txt2">Artist</div>
                         </div>
@@ -156,7 +157,7 @@
                         <div class="line2-img line2-img1"><img
                                 src="images/popular albums/image1.PNG"
                                 alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play8">►</div>
                         <div class="line-txt3">love hotel</div>
                         <div class="line-txt4">leftovermax</div>
                     </div>
@@ -164,7 +165,7 @@
                         <div class="line2-img line2-img2"><img
                                 src="images/popular albums/image2.PNG"
                                 alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play9">►</div>
                         <div class="line-txt3">ANIMAL</div>
                         <div class="line-txt4">Manan Bhardwaj,<br>Vishal
                             Mishra,Jaani</div>
@@ -173,7 +174,7 @@
                         <div class="line2-img line2-img3"><img
                                 src="images/popular albums/image3.PNG"
                                 alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play10">►</div>
                         <div class="line-txt3">Ek Tha Raja</div>
                         <div class="line-txt4">Badshah</div>
                     </div>
@@ -181,7 +182,7 @@
                         <div class="line2-img line2-img4"><img
                                 src="images/popular albums/image4.PNG"
                                 alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play11">►</div>
                         <div class="line-txt3">Moosetape</div>
                         <div class="line-txt4">Sidhu Moose Wala</div>
                     </div>
@@ -189,7 +190,7 @@
                         <div class="line2-img line2-img5"><img
                                 src="images/popular albums/image5.PNG"
                                 alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play12">►</div>
                         <div class="line-txt3">Aashiqui 2</div>
                         <div class="line-txt4">Mithoon, Ankit Tiwari,<br> Jeet
                             Gannguli</div>
@@ -198,7 +199,7 @@
                         <div class="line2-img line2-img6"><img
                                 src="images/popular albums/image6.PNG"
                                 alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play13">►</div>
                         <div class="line-txt3">Aavesham(Origina...</div>
                         <div class="line-txt4">Sushin Shyam,
                             Vinayak<br>Sasikumar</div>
@@ -212,7 +213,7 @@
                     <div class="line2-card1">
                         <div class="line2-img line2-img1"><img
                                 src="images/popular radio/mage1.PNG" alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play14">►</div>
                         <div class="line-txt3">Arijit singh radio</div>
                         <div class="line-txt4">with Neha Kakkar,<br>Pritam,KK
                             and more</div>
@@ -220,7 +221,7 @@
                     <div class="line2-card2">
                         <div class="line2-img line2-img2"><img
                                 src="images/popular radio/mage2.PNG" alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play15">►</div>
                         <div class="line-txt3">A.R. Rahman Radio</div>
                         <div class="line-txt4">With Shankar,<br>Mahadevan,
                             Anirud...</div>
@@ -228,7 +229,7 @@
                     <div class="line2-card3">
                         <div class="line2-img line2-img3"><img
                                 src="images/popular radio/mage3.PNG" alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play16">►</div>
                         <div class="line-txt3">Diljit Dosanjh...</div>
                         <div class="line-txt4">With Garry Sandhu,<br>Ranjit
                             Bawa,...</div>
@@ -236,7 +237,7 @@
                     <div class="line2-card4">
                         <div class="line2-img line2-img4"><img
                                 src="images/popular radio/mage4.PNG" alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play17">►</div>
                         <div class="line-txt3">Kumar Sanu Radio</div>
                         <div class="line-txt4">With Udit Narayan,<br>Alka
                             Yagnik,...</div>
@@ -244,7 +245,7 @@
                     <div class="line2-card5">
                         <div class="line2-img line2-img5"><img
                                 src="images/popular radio/mage5.PNG" alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play18">►</div>
                         <div class="line-txt3">Karan Aujla Radio</div>
                         <div class="line-txt4">With Arjan Dhillon,<br>Prem
                             Dhillon,Jorda...</div>
@@ -252,7 +253,7 @@
                     <div class="line2-card6">
                         <div class="line2-img line2-img6"><img
                                 src="images/popular radio/mage6.PNG" alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play19">►</div>
                         <div class="line-txt3">Yuvan Shankar...</div>
                         <div class="line-txt4">With G.V. Prakash,<br>Harris
                             Jayaraj,...</div>
@@ -266,7 +267,7 @@
                     <div class="line2-card1">
                         <div class="line2-img line2-img1"><img
                                 src="images/featured charts/img1.PNG" alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play20">►</div>
                         <div class="line-txt3">Top songs-Global</div>
                         <div class="line-txt4">Your Weekly update<br>of the most
                             played...</div>
@@ -274,7 +275,7 @@
                     <div class="line2-card2">
                         <div class="line2-img line2-img2"><img
                                 src="images/featured charts/img2.PNG" alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play21">►</div>
                         <div class="line-txt3">Top Songs-USA</div>
                         <div class="line-txt4">Your Weekly update<br>of the most
                             played...</div>
@@ -282,7 +283,7 @@
                     <div class="line2-card3">
                         <div class="line2-img line2-img3"><img
                                 src="images/featured charts/img3.PNG" alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play22">►</div>
                         <div class="line-txt3">Top 50-Global</div>
                         <div class="line-txt4">Your daily update<br>of the most
                             played...</div>
@@ -290,7 +291,7 @@
                     <div class="line2-card4">
                         <div class="line2-img line2-img4"><img
                                 src="images/featured charts/img4.PNG" alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play23">►</div>
                         <div class="line-txt3">Top 50-USA</div>
                         <div class="line-txt4">Your daily update<br>of the most
                             played...</div>
@@ -298,7 +299,7 @@
                     <div class="line2-card5">
                         <div class="line2-img line2-img5"><img
                                 src="images/featured charts/img5.PNG" alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play24">►</div>
                         <div class="line-txt3">Viral 50 -Global</div>
                         <div class="line-txt4">Your daily update<br>of the most
                             iral track...</div>
@@ -306,7 +307,7 @@
                     <div class="line2-card6">
                         <div class="line2-img line2-img6"><img
                                 src="images/featured charts/img6.PNG" alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play25">►</div>
                         <div class="line-txt3">Viral 50-USA</div>
                         <div class="line-txt4">Your daily update<br>of the most
                             iral track...</div>
@@ -321,7 +322,7 @@
                         <div class="line2-img line2-img1"><img
                                 src="images/musicsuno playlist/image.PNG"
                                 alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play26">►</div>
                         <div class="line-txt3">New Music Friday</div>
                         <div class="line-txt4">The very best in new<br>music
                             from around...</div>
@@ -330,7 +331,7 @@
                         <div class="line2-img line2-img2"><img
                                 src="images/musicsuno playlist/image2.PNG"
                                 alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play27">►</div>
                         <div class="line-txt3">Feel Good Friday</div>
                         <div class="line-txt4">Uplifting anthems to<br>power you
                             through...</div>
@@ -339,7 +340,7 @@
                         <div class="line2-img line2-img3"><img
                                 src="images/musicsuno playlist/image3.PNG"
                                 alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play28">►</div>
                         <div class="line-txt3">New joints</div>
                         <div class="line-txt4">All the new joints<br>featuring
                             Glorilla</div>
@@ -348,7 +349,7 @@
                         <div class="line2-img line2-img4"><img
                                 src="images/musicsuno playlist/image4.PNG"
                                 alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play29">►</div>
                         <div class="line-txt3">Happy Beats</div>
                         <div class="line-txt4"> feel-good dance<br>music</div>
                     </div>
@@ -356,7 +357,7 @@
                         <div class="line2-img line2-img5"><img
                                 src="images/musicsuno playlist/image45.PNG"
                                 alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play30">►</div>
                         <div class="line-txt3">All New Dance</div>
                         <div class="line-txt4">This week's<br>handpicked
                             new...</div>
@@ -365,7 +366,7 @@
                         <div class="line2-img line2-img6"><img
                                 src="images/musicsuno playlist/image6.PNG"
                                 alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play31">►</div>
                         <div class="line-txt3">A Perfect Day</div>
                         <div class="line-txt4">Timeless Melodies<br>from your
                             favourite...</div>
@@ -379,35 +380,35 @@
                     <div class="line2-card1">
                         <div class="line2-img line2-img1"><img
                                 src="images/trensing/img1.PNG" alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play32">►</div>
                         <div class="line-txt3">Welcome back,...</div>
                         <div class="line-txt4">Jun 2021 • 15min</div>
                     </div>
                     <div class="line2-card2">
                         <div class="line2-img line2-img2"><img
                                 src="images/trensing/img2.PNG" alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play33">►</div>
                         <div class="line-txt3">#73:Hotel Of...</div>
                         <div class="line-txt4">Jun 2021 • 93min</div>
                     </div>
                     <div class="line2-card3">
                         <div class="line2-img line2-img3"><img
                                 src="images/trensing/img3.PNG" alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play34">►</div>
                         <div class="line-txt3">Anubis:God of...</div>
                         <div class="line-txt4">Jun 2021 • 16min</div>
                     </div>
                     <div class="line2-card4">
                         <div class="line2-img line2-img4"><img
                                 src="images/trensing/img4.PNG" alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play35">►</div>
                         <div class="line-txt3">Mahabharata...</div>
                         <div class="line-txt4">April 2024 • 24min</div>
                     </div>
                     <div class="line2-card5">
                         <div class="line2-img line2-img5"><img
                                 src="images/trensing/img5.PNG" alt></div>
-                        <div class="line2-play-btn-card1">►</div>
+                        <div class="line2-play-btn-card1 music-play" id="music-play36">►</div>
                         <div class="line-txt3">Relaxing Rain...</div>
                         <div class="line-txt4">Aug 2019 • 122min</div>
                     </div>
